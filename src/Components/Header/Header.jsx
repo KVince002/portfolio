@@ -3,16 +3,16 @@ import profilepic from "./rework profilkép.jpg"
 
 export function Header() {
 	return (
-		<>
+		<header className="frappe ctp-frappe">
 			<div>
-			<h1>
+			<h1 className="font-bold ctp-teal">
 				Kemény Vince
 			</h1>
 			</div>
 			<div>
 			<img alt="My Profile picture" src={profilepic}/>
 			</div>
-			<did>
+			<div>
 				<div>
 					<address>
 						Email address<br/>
@@ -23,7 +23,7 @@ export function Header() {
 						<a href="https://gitlab.com/Cincennes" id="gilab">My Gitlab page</a>
 					</address>
 				</div>
-			</did>
-		</>
+			</div>
+		</header>
 	)
 }
